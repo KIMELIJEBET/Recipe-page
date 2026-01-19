@@ -1,0 +1,79 @@
+/* Full-page background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f6e9de; /* soft beige like your example */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card container */
+.card {
+    background-color: #ffffff;
+    max-width: 700px;
+    width: 90%;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Image at top */
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+.card h1 {
+    margin: 0 0 10px;
+    font-size: 2rem;
+}
+
+.card .description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Section styling */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #8b3e1c; /* brown/orange heading like example */
+    margin-bottom: 10px;
+}
+
+/* Lists */
+.section ul, .section ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.section ul li, .section ol li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+/* Preparation time box */
+.prep-time {
+    background-color: #f9e9f9; /* soft pinkish box */
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Nutrition table */
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition td {
+    padding: 5px 10px;
+    border-top: 1px solid #ddd;
+}
